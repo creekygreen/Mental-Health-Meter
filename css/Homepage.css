@@ -1,0 +1,353 @@
+#home {
+  margin-right: 1.3229%;
+  overflow-wrap: break-word;
+  font-family: 'Tahoma';
+  font-weight: 400;
+  line-height: 1.556;
+  color: white;
+  cursor: pointer;
+}
+
+.row-containers{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+}
+
+.col-containers{
+    display:flex;
+    flex-direction: column;
+}
+
+.space-even-row{
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+}
+/*Navigation Bar*/
+#container-1 {
+  background: #9FBD84;
+    padding-top: 0.25%;
+    padding-bottom: 0.25%;
+    font-size: 18%;
+    display: inline-flex;
+    justify-content:space-around;
+}
+
+#find-atherapist {
+  margin-right: 1.3542%;
+  overflow-wrap: break-word;
+  font-family: 'Tahoma';
+  font-weight: 400;
+  line-height: 1.556;
+  color: white;
+  cursor: pointer;
+}
+
+#about-us {
+  margin-right: 1.3229%;
+  overflow-wrap: break-word;
+  font-family: 'Tahoma';
+  font-weight: 400;
+  line-height: 1.556;
+  color: white;
+  cursor: pointer;
+}
+
+#contact-us {
+  overflow-wrap: break-word;
+  font-family: 'Tahoma';
+  font-weight: 400;
+  line-height: 1.556;
+  color: white;
+  cursor: pointer;
+}
+/*Banner for Assessment*/
+#container-2{
+    background-color:#E6F1F0;
+    padding-bottom: 3%;
+}
+
+#container-banner{
+    width:50%;
+    padding-left:10%;
+}
+
+#mental-health-wellness-meter {
+    padding-top: 10%;
+  overflow-wrap: break-word;
+  font-family: 'Tahoma';
+  font-weight: 700;
+  font-size: 20%;
+  letter-spacing: 0.2px;
+  line-height: 0.917;
+  color: var(--neutral-10, #486284);
+}
+
+#you-share-we-listen-we-care {
+    padding-top: 1%;
+  overflow-wrap: break-word;
+  font-family: 'Georgia';
+  font-weight: 400;
+  font-size: 40%;
+  letter-spacing: 0.5px;
+  line-height: 1.267;
+  color: #486284;
+}
+
+#banner-details {
+  margin-right: 20%;
+  overflow-wrap: break-word;
+  font-family: 'Tahoma';
+  font-weight: 400;
+  font-size: 12%;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+  color: #8CA2C0;
+}
+
+#assessment-btn {
+ border-radius: 50px;
+  border: 0.0521% solid #F39150;
+  background: #F39150;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    padding: 1% 1% 1% 1%;
+  width: 15%;
+  height: fit-content;
+  box-sizing: border-box;
+  cursor:pointer;
+}
+
+#start-btn {
+  overflow-wrap: break-word;
+  font-family: 'DM Sans';
+  font-weight: bold;
+  font-size: 10%;
+  letter-spacing: 0.5px;
+  color: var(--neutral-0, #FFFFFF);
+}
+/*Articles*/
+#container-3{
+    padding: 3%;
+    width:90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#article-1{
+    background-color: gray;
+}
+
+#article-2{
+    background-color: gray;
+}
+
+.article{
+    border-radius: 10px;
+    border:1%;
+    padding:1%;
+    color:white;
+}
+
+.article-title{
+    font-size: 15%;
+    margin-right: 30%;
+    overflow-wrap: break-word;
+    font-family: 'Tahoma';
+    font-weight: 700;
+}
+
+.article-desc{
+    padding-top: 5%;
+    padding-bottom:5%;
+    font-size: 12%;
+    margin-right: 20%;
+    overflow-wrap: break-word;
+    font-family: 'Tahoma';
+}
+
+.article-btn {
+    border-radius: 20px;
+  border: 0.0521%;
+  background: white;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    padding:3%;
+  width: 30%;
+  height: fit-content;
+  box-sizing: border-box;
+  cursor:pointer;
+    vertical-align: bottom;
+}
+
+.read-btn {
+  overflow-wrap: break-word;
+  font-family: 'DM Sans';
+  font-weight: bold;
+  font-size: 10%;
+  letter-spacing: 0.5px;
+  color: black;
+}
+
+
+/*Feedbacks*/
+#container-feedback{
+    width:70%;
+    
+}
+
+#feedback-col{
+padding: 1%;
+    width: 100%;
+}
+
+#fd-title{
+      overflow-wrap: break-word;
+  font-family: 'Tahoma';
+  font-weight: 200;
+  font-size: 10%;
+    color:orange;
+}
+
+#fd-subtitle{
+      overflow-wrap: break-word;
+  font-family: 'Georgia';
+  font-weight: 200;
+  font-size: 25%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    margin-right: 60%;
+    color:black;
+}
+
+.comment{
+    width: 40%;
+    border-radius: 10px;
+    border:1%;
+    padding:1%;
+    color:black;
+    background-color: #FEF4EE;
+} 
+
+/*Staff*/
+#container-staff{
+    padding: 2%;
+    width:80%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#staff-col{
+    text-align: center;
+}
+
+#staff-title{
+      overflow-wrap: break-word;
+  font-family: 'Tahoma';
+  font-weight: 200;
+  font-size: 12%;
+    color:orange;
+}
+
+#staff-subtitle{
+      overflow-wrap: break-word;
+  font-family: 'Georgia';
+  font-weight: 200;
+  font-size: 25%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    color:black;
+}
+
+#container-staff{
+    padding: 2%;
+    width:80%;
+    justify-content: center;
+    align-items: center;
+    
+}
+/*Contacts*/
+#container-contacts{
+    padding: 2%;
+    width:80%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#contacts-col{
+    text-align: center;
+    width: 100%;
+}
+#contacts-title{
+      overflow-wrap: break-word;
+  font-family: 'Tahoma';
+  font-weight: 200;
+  font-size: 12%;
+    color:orange;
+}
+
+#contacts-subtitle{
+      overflow-wrap: break-word;
+  font-family: 'Georgia';
+  font-weight: 200;
+  font-size: 25%;
+    padding-top: 1%;
+    padding-right: 25%;
+    padding-left: 25%;
+    padding-bottom: 3%;
+    color:black;
+}
+
+.contacts-name{
+      overflow-wrap: break-word;
+  font-family: 'Tahoma';
+  font-weight: 200;
+  font-size: 12%;
+    padding-bottom: 2%;
+    color:orange;
+}
+
+.contacts-desc{
+      overflow-wrap: break-word;
+  font-family: 'Tahoma';
+  font-size: 10%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    color:black;
+}
+.contacts{
+    border: 1px black solid;
+    width:20%;
+    background-color: cornsilk;
+    padding:3%;
+    text-align: left;
+    
+}
+
+#container-footer {
+  background: #36405B;
+    padding-bottom:1%;
+    padding-top:1%;
+    font-size: 10%;
+overflow-wrap: break-word;
+  font-family: 'Tahoma';
+  font-size: 10%;
+    color:white;
+}
+body {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-size:100px;
+}
+

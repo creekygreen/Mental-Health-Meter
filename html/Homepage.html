@@ -1,0 +1,127 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="css/Homepage.css" />
+  </head>
+    
+  <body>
+      <!-- Navigation Bar -->
+      <div class="row-containers" id="container-1">    
+        <span id="home" onclick=gotoHome()>
+        Home
+        </span>
+        <span id="find-atherapist">
+        Find a Therapist
+        </span>
+        <span id="about-us">
+        About Us
+        </span>
+        <span id="contact-us">
+        Contact Us
+        </span>
+    </div>
+      <!-- Assessment Banner-->
+      <div class="row-containers" id="container-2">
+        <div class="col-containers" id="container-banner">
+          <span id="mental-health-wellness-meter">Mental Health Wellness Meter</span>
+            <span id="you-share-we-listen-we-care">You Share. We Listen. We Care</span>
+            <p id="banner-details">Talk to a professional, credentialled, and vetted therapist that you can trust. Communicate via text, phone, or video anywhere, anytime.</p>
+            <div id="assessment-btn"  onclick="gotoAssessment()">
+                <span id="start-btn">
+                Start Assessment
+                </span>
+              </div>
+          </div>
+      </div>
+      <!--Article Row-->
+      <div class="row-containers" id="container-3">
+          <div class="col-containers article" id="article-1"> <!--Article 1-->
+              <span class="article-title">How to improve Mental Health Well Being</span>
+              <span class="article-desc">Know some tips on how to improve your mental health.</span>
+              <div class="article-btn">
+                <span class="read-btn">Read Article</span>
+              </div>
+          </div>
+          <div class="col-containers article" id="article-2"> <!--Article 2-->
+              <span class="article-title">Mental Health Awareness Month</span>
+              <span class="article-desc">Know more about Mental Health Awareness Month.</span>
+              <div class="article-btn">
+                <span class="read-btn">Read Article</span>
+              </div>
+          </div>
+      </div>
+      <!--Feedbacks-->
+      <div class="row-containers" id="container-feedback">
+          <div class="col-containers" id="feedback-col">
+              <span id="fd-title">PATIENTS FEEDBACK</span>
+              <span id="fd-subtitle">Professional Psychology Therapy Service You Can Choose</span>
+              <div class="row-containers space-even-row">
+                  <div class="col-containers comment"> <!--Comment 1-->
+                      <span class="article-title">Comment</span>
+                      <span class="article-desc">Name</span>
+                  </div>
+                  <div class="col-containers comment"> <!--Comment 2-->
+                      <span class="article-title">Comment</span>
+                      <span class="article-desc">Name</span>
+                  </div>
+              </div>
+          </div> 
+      </div>
+      <!--Staff-->
+      <div class="row-containers" id="container-staff">
+          <div class="col-containers" id="staff-col">
+              <span id="staff-title">MEET OUR THERAPISTS</span>
+              <span id="staff-subtitle">Easing your mind with the best therapeutic care?</span>
+              <div class="row-containers space-even-row">
+                  <div class="col-containers comment"> <!--Comment 1-->
+                      <span class="article-title">img</span>
+                      <span class="article-desc">Name</span>
+                      <span class="article-desc">Counselor</span>
+                  </div>
+
+              </div>
+          </div> 
+      </div>
+      <!--Contact-->
+      <div class="row-containers" id="container-contacts">
+          <div class="col-containers" id="contacts-col">
+              <span id="contacts-title">GET IN TOUCH</span>
+              <span id="contacts-subtitle">We want to share our location to find us easily.</span>
+              <div class="row-containers space-even-row">
+                  <div class="col-containers contacts"> <!--Contact 1-->
+                      <span class="contacts-name">Office Address</span>
+                      <span class="contacts-desc">1962 J.P. Laurel National Highway, Mataas na Lupa, 4217, Batangas</span>
+                  </div>
+                  <div class="col-containers contacts"> <!--Contact 2-->
+                      <span class="contacts-name">Telephone Number</span>
+                      <span class="contacts-desc">Insert Telephone Number</span>
+                  </div>
+                  <div class="col-containers contacts"> <!--Contact 3-->
+                      <span class="contacts-name">Email Address</span>
+                      <span class="contacts-desc">Insert Email Address</span>
+                  </div>
+              </div>
+          </div> 
+      </div>
+      <!-- Footer -->
+      <div class="row-containers" id="container-footer">   
+        <div class="col-containers">
+        <span>Mental Health Meter 2024</span>
+        <span>Designed and Developed by </span>
+            </div>
+    </div>
+  </body>
+<script>
+
+    function gotoAssessment(){
+        window.location.href = "assessment.html";
+    }
+    
+        function gotoHome(){
+        window.location.href = "Homepage.html";
+    }
+</script>
+</html>

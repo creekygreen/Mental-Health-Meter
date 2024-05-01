@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assessment</title>
+    <link rel="stylesheet" href="css\Assessment.css" />
+  </head>
+  <body>
+        <!-- Navigation Bar -->
+      <div class="row-containers" id="container-1">  
+        <span id="title">Mental Health Meter</span>
+        <span id="home" onclick=gotoHome()>Home</span>
+        <span id="find-atherapist">Find a Therapist</span>
+        <span id="about-us">About Us</span>
+        <span id="contact-us">
+        Contact Us
+        </span>
+    </div>
+      <!--Form-->
+      <form id="questionForm">
+        <div id="q1" class="question active">
+            <p class="question-desc">Question 1</p>
+        <div class="space-even-row">
+            <span class="choice-txt">Strongly Disagree</span>
+            <input type="radio" name="q1">
+            <input type="radio" name="q1">
+            <input type="radio" name="q1">
+            <input type="radio" name="q1">
+            <input type="radio" name="q1">
+            <span class="choice-txt">Strongly Agree</span>
+            </div>
+        <div class="row-containers" id="qnav">
+            <button type="button" class="back-btn">Back</button>
+            <button type="button" class="next-btn">Next</button>
+        </div>
+        </div>
+    </form>
+
+  </body>
+    <script>
+
+        function gotoHome(){
+        window.location.href = "Homepage.html";
+        }
+  
+    </script>
+</html>
